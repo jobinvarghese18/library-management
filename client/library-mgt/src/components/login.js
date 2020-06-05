@@ -25,17 +25,17 @@ class Login extends React.Component{
                 }} >
                     <Form>
                         <label htmlFor='email'>E-mail</label>
-                        <Field type='text' name='email'/><br/>
+                        <Field type='text' name='email' className='form-control'/><br/>
                         <ErrorMessage
                         component='div'
                         name='email'
-                        className='c-validation'/>
+                        />
                         <label htmlFor='password'>password</label>
-                        <Field type='text' name='password'/><br/><ErrorMessage
+                        <Field type='text' name='password' className='form-control'/><br/><ErrorMessage
                         component='div'
                         name='password'
                         className='c-validation'/>
-                        <button type='submit' className='myButton'>Submit</button>
+                        <button type='submit' className='btn btn-warning'>Submit</button>
                     </Form>
                 </Formik>
             </div>
