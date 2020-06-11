@@ -8,6 +8,8 @@
 * react-router-dom
 * express
 * mongoose
+* JWT
+* bcryptjs
 
 ## Registration part UI
 ![](https://github.com/jobinvarghese18/library-management/blob/master/Capture.PNG)
