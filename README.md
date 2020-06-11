@@ -1,5 +1,5 @@
 # library-management
-##### main libariries used throughout the app
+##### main libraries used throughout the app
 * redux
 * redux thunk
 * formik
