@@ -24,18 +24,32 @@ class Login extends React.Component{
                     this.props.dispatch(startLoginUser(values))
                 }} >
                     <Form>
+                    <div className='row'>
+                            <div className='col-md-4 offset-4 mt-5'>
+                                <h2>Login</h2>
+                                </div>
+                            </div>
+                        <div className='row'>
+                            <div className='col-md-4 offset-4'>
+                        <div className='form-group'>
                         <label htmlFor='email'>E-mail</label>
-                        <Field type='text' name='email' className='form-control'/><br/>
+                        <Field type='text' name='email' className='form-control'/>
+                        </div>
                         <ErrorMessage
                         component='div'
                         name='email'
                         />
+                        <div className='form-group'>
                         <label htmlFor='password'>password</label>
-                        <Field type='text' name='password' className='form-control'/><br/><ErrorMessage
+                        <Field type='text' name='password' className='form-control'/>
+                        </div>
+                        <ErrorMessage
                         component='div'
                         name='password'
                         className='c-validation'/>
                         <button type='submit' className='btn btn-warning'>Submit</button>
+                        </div>
+                    </div>
                     </Form>
                 </Formik>
             </div>
